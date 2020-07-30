@@ -7,7 +7,8 @@ import (
     "bufio"
     "sync"
     )
-
+// Usage :
+//        $ cat hosts | ./Go
 func main() {
     sc := bufio.NewScanner(os.Stdin)
     var wg sync.WaitGroup
